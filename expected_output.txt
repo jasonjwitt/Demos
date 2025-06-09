@@ -1,0 +1,23 @@
+[
+  {
+    "account_id": "1234567890",
+    "transaction_date": "2025-06-01",
+    "transaction_type": "DEPOSIT",
+    "amount": 1500.0,
+    "status": "COMPLETED"
+  },
+  {
+    "account_id": "9876543210",
+    "transaction_date": "2025-06-02",
+    "transaction_type": "WITHDRAWAL",
+    "amount": 300.0,
+    "status": "PENDING"
+  },
+  {
+    "account_id": "5551234567",
+    "transaction_date": "2025-06-03",
+    "transaction_type": "TRANSFER",
+    "amount": 200.0,
+    "status": "COMPLETED"
+  }
+]
