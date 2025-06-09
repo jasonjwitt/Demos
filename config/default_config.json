@@ -1,0 +1,29 @@
+{
+  "header": {
+    "prefix": "HDR"
+  },
+  "trailer": {
+    "prefix": "TRL"
+  },
+  "delimiter": ",",
+  "fields": [
+    {
+      "name": "account",
+      "index": 0,
+      "required": true
+    },
+    {
+      "name": "category",
+      "index": 1,
+      "required": true
+    },
+    {
+      "name": "amount",
+      "index": 2,
+      "required": true,
+      "type": "float"
+    }
+  ],
+  "category_field": "category",
+  "amount_field": "amount"
+}
